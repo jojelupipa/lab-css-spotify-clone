@@ -111,6 +111,7 @@ White: #FFF
     text-decoration: underline;
     text-underline-offset: 10px;
     font-size: xx-large;
+    position: absolute;
 }
 .div2 { 
     grid-area: 2 / 1 / 4 / 3; 
