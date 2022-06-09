@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    height: 80%;
+    width: auto;
+}
+
+.pink_area{
+    position: relative;
+}
+
+.blue_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 5vh;
+}
+
+.green_area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    text-align: center;
+}
+
+.crowd{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.landing_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: white;
+    text-align: center;
+}
+
+.music_text{
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.red_area{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caption_text{
+    font-size: x-large;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 10px;
+}
+
+.orange_area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5vw;
+}
+
+.yellow_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.png_logos{
+    height: 5vw;
+}
+
+.green_text{
+    color: #00B172;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 { 
+    grid-area: 1 / 1 / 2 / 4; 
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-size: xx-large;
+}
+.div2 { 
+    grid-area: 2 / 1 / 4 / 3; 
+}
+.div3 {
+    grid-area: 4 / 1 / 6 / 3; 
+}
+.div4 {
+    grid-area: 6 / 1 / 8 / 3; 
+}
+.div5 {
+    display: flex;
+    grid-area: 3 / 3 / 7 / 5;
+    justify-content: center;
+    align-items: center;
+}
+
+.white_logo{
+    width: 50%;
+    height: auto;
+}
+
+.div6 {
+    display: flex;
+    grid-area: 1 / 5 / 8 / 7; 
+    justify-content: center;
+    align-items: center;
+}
+
+.div6 img{
+    width: 70%;
+}
+
+.purple_area{
+    padding: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: #00B172;
+    color: white;
+}
+
+.purple_area .title {
+    font-weight: bold;
+}
